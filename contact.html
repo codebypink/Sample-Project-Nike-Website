@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact - Nike Online Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="Logo.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="newreleases.html">New Releases</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <div class="search" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Search</span>
+            </div>
+            <div class="shop" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                <span>0</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </nav>
+
+       <section>
+        <h1>Contact Us</h1>
+        <p>We're here to help and answer any question you might have. 
+            We look forward to hearing from you.</p>
+       </section>
+            
+       
+        <section class="contact-form-section">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>If you have any questions or concerns, 
+                    <br>feel free to reach out to us:</p>
+                    <br><br>
+
+                <ul>
+                    <li>Email: support@nike.com</li>
+                    <li>Phone: 1-800-555-NIKE</li>
+                    <li>Address: 123 Nike Street, Beaverton, OR, 97005</li>
+                </ul>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="formStatus"></p>
+            </div>
+        </section>
+    
+ 
+        <footer class="footer">
+            <p class="copyright">
+                &copy; Nike | © Michelle Vuelta | All Rights Reserved 
+            </p>
+        </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
